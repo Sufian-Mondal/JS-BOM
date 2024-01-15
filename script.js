@@ -25,14 +25,27 @@ const message = document.querySelector(".message");
 //   }, 2000);
 // }
 
-btnOne.addEventListener("click", countDisplay);
+// btnOne.addEventListener("click", countDisplay);
 
-function countDisplay() {
-  let count = 1;
-  message.textContent = count;
+// function countDisplay() {
+//   let count = 1;
+//   message.textContent = count;
 
-  setInterval(() => {
-    count++;
-    message.textContent = count;
-  }, 2000);
-}
+//   setInterval(() => {
+//     count++;
+//     message.textContent = count;
+//   }, 2000);
+// }
+
+//map and filter array
+
+// let age = [7, 9, 16, 20, 24];
+// // let newAge = age.map(function (x) {
+// //   console.log(x * 2);
+// // });
+
+// let newAge = age.filter(function (x) {
+//   return x < 10;
+// });
+
+// console.log(newAge);
